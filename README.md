@@ -1,19 +1,18 @@
-# Crypto Trading Framework
+# TradeFlow Bot
 
-A modular crypto trading bot and backtesting engine with strategies like RSI, MACD, and SMA crossover.
+A modular crypto trading framework for live trading and backtesting, powered by the Binance API.  
+Includes popular strategies such as RSI, MACD, and SMA crossover, with built-in risk management tools.
 
-## Features
-- Live trading via Binance API
-- Backtesting with performance metrics
-- Risk management (position sizing, stop-loss)
-- Modular strategy design
-- Dockerized deployment
+## ✨ Features
+- 📡 **Live Trading** with Binance API (REST + WebSocket)
+- 📊 **Backtesting Engine** with performance metrics (PnL, Sharpe ratio, drawdowns)
+- 🛡 **Risk Management** (position sizing, stop-loss, take-profit)
+- 🔌 **Modular Strategy Design** – plug in your own algorithms easily
+- 🐳 **Dockerized Deployment** for production-like environments
 
-## Setup
-1. Insert your Binance API keys in `config.py`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run live trading: `python rsi_bot.py`
-4. Run backtest: `python backtest.py`
+## 🚀 Getting Started
 
-## Disclaimer
-For educational purposes only. Use at your own risk.
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/yourusername/tradeflow-bot.git
+   cd tradeflow-bot
