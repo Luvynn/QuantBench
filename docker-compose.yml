@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  tradingbot:
+    build: .
+    container_name: trading_bot
+    restart: unless-stopped
+    environment:
+      - API_KEY=${API_KEY}
+      - API_SECRET=${API_SECRET}
