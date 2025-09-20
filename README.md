@@ -1,3 +1,8 @@
+Got it 👍 — here’s your updated **README.md** with the project renamed to **QuantBench** everywhere, keeping it polished and consistent:
+
+---
+
+````markdown
 # QuantBench
 
 A modular crypto trading framework for **live trading** and **backtesting**, powered by the **Binance API**.  
@@ -20,48 +25,70 @@ It comes with built-in strategies such as **RSI**, **MACD**, and **SMA crossover
 ```bash
 git clone https://github.com/yourusername/QuantBench.git
 cd QuantBench
+````
 
-2. Add API keys
+### 2. Add API keys
 
-Edit config.py and add your Binance API key and secret:
+Edit `config.py` and add your Binance API key and secret:
 
+```python
 API_KEY = "your_api_key"
 API_SECRET = "your_api_secret"
+```
 
-3. Install dependencies
+### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-4. Run live trading
+### 4. Run live trading
+
+```bash
 python strategies/rsi_bot.py
+```
 
-5. Run backtests
+### 5. Run backtests
+
+```bash
 python backtest.py
+```
 
-Example Workflow
+---
 
-Subscribe to real-time candlestick data via WebSocket
+## Example Workflow
 
-Run your chosen strategy (e.g., RSI > 70 → Sell, RSI < 30 → Buy)
+1. Subscribe to real-time candlestick data via WebSocket
+2. Run your chosen strategy (e.g., RSI > 70 → Sell, RSI < 30 → Buy)
+3. Apply risk rules (stop-loss, position sizing)
+4. Place orders via Binance REST API or simulate trades via backtesting
 
-Apply risk rules (stop-loss, position sizing)
+---
 
-Place orders via Binance REST API or simulate trades via backtesting
-
-🛠 Roadmap
+## 🛠 Roadmap
 
 Planned improvements:
 
-Multi-exchange support (Kraken, Coinbase, etc.)
+* Multi-exchange support (Kraken, Coinbase, etc.)
+* Portfolio tracking dashboards
+* More strategies (Bollinger Bands, VWAP, momentum-based)
+* Enhanced backtester with historical tick-level data
+* Machine learning–driven signal generation
 
-Portfolio tracking dashboards
+---
 
-More strategies (Bollinger Bands, VWAP, momentum-based)
+## ⚠️ Disclaimer
 
-Enhanced backtester with historical tick-level data
-
-Machine learning–driven signal generation
-
-⚠️ Disclaimer
-
-This project is for educational purposes only.
+This project is for **educational purposes only**.
 Trading cryptocurrencies involves significant risk. Use at your own discretion.
+
+---
+
+```
+
+---
+
+✅ Now your repo will show up as **QuantBench** instead of TradeFlow Bot, which sounds sharper and more professional.  
+
+Do you also want me to give you a **short GitHub "About" one-liner** for the right-hand description box that matches this new name?
+```
