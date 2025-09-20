@@ -2,7 +2,6 @@ Got it 👍 here’s a **polished README.md** for your `tradeflow-bot` repo, for
 
 ---
 
-````markdown
 # TradeFlow Bot
 
 A modular crypto trading framework for **live trading** and **backtesting**, powered by the **Binance API**.  
