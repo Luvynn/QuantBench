@@ -1,80 +1,99 @@
-Here’s the full **README.md** you can drop directly into your `tradeflow-bot` repo:
+Got it 👍 here’s a **polished README.md** for your `tradeflow-bot` repo, formatted cleanly so it looks professional on GitHub:
 
 ---
 
 ````markdown
 # TradeFlow Bot
 
-A modular crypto trading framework for live trading and backtesting, powered by the Binance API.  
-Includes strategies such as RSI, MACD, and SMA crossover, with built-in risk management tools.
+A modular crypto trading framework for **live trading** and **backtesting**, powered by the **Binance API**.  
+It comes with built-in strategies such as **RSI**, **MACD**, and **SMA crossover**, plus risk management tools for safer trading.
 
-## Features
-- Live trading with Binance API (REST + WebSocket)
-- Backtesting engine with performance metrics (PnL, Sharpe ratio, drawdowns)
-- Risk management (position sizing, stop-loss, take-profit)
-- Modular strategy design – plug in your own algorithms easily
-- Dockerized deployment for production-like environments
+---
 
-## Getting Started
+## 🚀 Features
+- Live trading with Binance API (REST + WebSocket)  
+- Backtesting engine with performance metrics (PnL, Sharpe ratio, drawdowns)  
+- Risk management: position sizing, stop-loss, take-profit  
+- Modular strategy design – plug in your own algorithms easily  
+- Dockerized deployment for production-ready environments  
 
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/yourusername/tradeflow-bot.git
-   cd tradeflow-bot
+---
+
+## 📦 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/tradeflow-bot.git
+cd tradeflow-bot
 ````
 
-2. Add API keys
-   Edit `config.py` with your Binance API key and secret.
+### 2. Add API keys
 
-3. Install dependencies
+Edit `config.py` and add your Binance API key and secret:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```python
+API_KEY = "your_api_key"
+API_SECRET = "your_api_secret"
+```
 
-4. Run live trading
+### 3. Install dependencies
 
-   ```bash
-   python rsi_bot.py
-   ```
+```bash
+pip install -r requirements.txt
+```
 
-5. Run backtests
+### 4. Run live trading
 
-   ```bash
-   python backtest.py
-   ```
+```bash
+python strategies/rsi_bot.py
+```
 
-## Example Workflow
+### 5. Run backtests
 
-* Subscribe to real-time candlestick data via WebSocket
-* Run your chosen strategy (e.g., RSI > 70 → Sell, RSI < 30 → Buy)
-* Apply risk rules (stop-loss, position sizing)
-* Place orders via Binance REST API or simulate via backtesting
+```bash
+python backtest.py
+```
 
-## Roadmap
+---
 
-Planned improvements and future features:
+## ⚡ Example Workflow
+
+1. Subscribe to real-time candlestick data via WebSocket
+2. Run your chosen strategy (e.g., RSI > 70 → Sell, RSI < 30 → Buy)
+3. Apply risk rules (stop-loss, position sizing)
+4. Place orders via Binance REST API or simulate trades via backtesting
+
+---
+
+## 🛠️ Roadmap
+
+Planned improvements:
 
 * Multi-exchange support (Kraken, Coinbase, etc.)
-* Portfolio tracking and performance dashboards
-* Additional strategies (Bollinger Bands, VWAP, momentum-based)
-* Improved backtester with historical tick-level data
+* Portfolio tracking dashboards
+* More strategies (Bollinger Bands, VWAP, momentum-based)
+* Enhanced backtester with historical tick-level data
 * Machine learning–driven signal generation
 
-## Disclaimer
+---
 
-This project is for educational purposes only.
+## ⚠️ Disclaimer
+
+This project is for **educational purposes only**.
 Trading cryptocurrencies involves significant risk. Use at your own discretion.
 
-## Contributing
+---
 
-Contributions, strategy ideas, and improvements are welcome.
+## 🤝 Contributing
+
+Contributions, strategy ideas, and improvements are welcome!
+Open an issue or submit a pull request.
 
 ```
 
 ---
 
-This way your repo looks **polished and ambitious**, while still making it clear it’s **your own framework** and not just a fork.  
+This will look **clean, consistent, and recruiter-friendly** on GitHub.  
 
-👉 Want me to also help you draft a **sample strategy file** (like `sma_crossover.py`) so your repo already looks “feature-rich” out of the box?
+👉 Do you also want me to write a **short one-liner description** (for the GitHub “About” section on the right-hand side), so it matches this README?
 ```
