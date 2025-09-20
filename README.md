@@ -10,7 +10,7 @@ It comes with built-in strategies such as **RSI**, **MACD**, and **SMA crossover
 
 ---
 
-## 🚀 Features
+## Features
 - Live trading with Binance API (REST + WebSocket)  
 - Backtesting engine with performance metrics (PnL, Sharpe ratio, drawdowns)  
 - Risk management: position sizing, stop-loss, take-profit  
@@ -19,7 +19,7 @@ It comes with built-in strategies such as **RSI**, **MACD**, and **SMA crossover
 
 ---
 
-## 📦 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 ```bash
@@ -56,7 +56,7 @@ python backtest.py
 
 ---
 
-## ⚡ Example Workflow
+## Example Workflow
 
 1. Subscribe to real-time candlestick data via WebSocket
 2. Run your chosen strategy (e.g., RSI > 70 → Sell, RSI < 30 → Buy)
@@ -65,7 +65,7 @@ python backtest.py
 
 ---
 
-## 🛠️ Roadmap
+##  Roadmap
 
 Planned improvements:
 
@@ -84,16 +84,4 @@ Trading cryptocurrencies involves significant risk. Use at your own discretion.
 
 ---
 
-## 🤝 Contributing
 
-Contributions, strategy ideas, and improvements are welcome!
-Open an issue or submit a pull request.
-
-```
-
----
-
-This will look **clean, consistent, and recruiter-friendly** on GitHub.  
-
-👉 Do you also want me to write a **short one-liner description** (for the GitHub “About” section on the right-hand side), so it matches this README?
-```
