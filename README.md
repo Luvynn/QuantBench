@@ -1,6 +1,4 @@
-Got it 👍 here’s a **polished README.md** for your `tradeflow-bot` repo, formatted cleanly so it looks professional on GitHub:
 
----
 
 # TradeFlow Bot
 
