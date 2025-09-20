@@ -1,8 +1,4 @@
-Got it 👍 — here’s your updated **README.md** with the project renamed to **QuantBench** everywhere, keeping it polished and consistent:
 
----
-
-````markdown
 # QuantBench
 
 A modular crypto trading framework for **live trading** and **backtesting**, powered by the **Binance API**.  
